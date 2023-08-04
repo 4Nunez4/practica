@@ -1,0 +1,30 @@
+#welcome-text {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  /* Estilos para el logo de WhatsApp */
+  #whatsapp-logo {
+    display: block;
+    margin: 50px auto 0 auto;
+    width: 50px;
+    height: 50px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg');
+    background-size: contain;
+    cursor: pointer;
+  }
+
+  /* Estilos para el mini chat */
+  #mini-chat {
+    display: none;
+    position: absolute;
+    top: 150px;
+    left: calc(50% - 150px);
+    width: 300px;
+    height: 200px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
